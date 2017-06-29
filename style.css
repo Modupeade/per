@@ -30,8 +30,10 @@ width: 900px;
 
 }
 
-
-
+#unit-table input[type=text]{
+	border:none;
+	width: 100px;
+}
 
 h1{
 	font-size: 28px;
@@ -90,3 +92,7 @@ th, td {
     padding: 5px;
     text-align: left;    
 }
+  .testing{
+    font-size: 50px;
+	background-color:red;
+ }

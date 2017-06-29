@@ -19,12 +19,13 @@ $award = mysqli_fetch_assoc($ret);
 
 
 ?>
-
+	<a style="padding-left: 10px;" href="staff-form.php">BACK</a><br><br>
 <form action="edit-award.php?id=<?=$id?>" method="POST">
 		<input type="text" name="award" value="<?=$award['title']?>"/>
 		<input type="text" name="year" value="<?=$award['year']?>"/>
 	<div>	
 		<br/><input type="submit" name="update" value="update"/>		
 	</div>
+
 </form>
 
